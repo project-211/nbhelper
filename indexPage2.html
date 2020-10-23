@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/init.css">
+    <link rel="stylesheet" href="./css/indexPage2.css">
+</head>
+<body>
+    <div class="container">
+        <article>
+            <div class="title">
+                <img src="./images/img02/text_03.png">
+            </div>
+            <div class="content">
+                <p>“宁波帮”是中国的十大商帮之一。不少商帮历经荣辱沉浮，逐渐退出历史舞台。而“宁波帮”依然长盛不衰，活跃在世界各地。贝时璋、王宽诚、邵逸夫、谈家桢、卢绪章、董浩云、包玉刚、曹光彪、李达三等更是其中的代表人物。</p>
+                <p>据宁波帮博物馆提供的数据，目前“宁波帮”所经营的事业已经拓展到工商、科教、文化等各个领域，活跃在世界83个国家和地区，海外“宁波帮”人数达42.7万人。</p>
+                <p>宁波老外滩开埠于1844年，曾是“五口通商”中最早的对外开埠区，也是中国古代东北亚海上丝绸之路的起航港。百余年来，以严信厚、虞洽卿、朱葆三等商人为代表的甬商从这里走向世界，形成了世界著名的商帮--宁波帮。</p>
+            </div>
+        </article>
+        <div class="space">
+            <img src="./images/img02/dot_01.png" alt="">
+        </div>
+        <aside>
+            <div>
+                <div class="mini">
+                    <img src="./images/img02/mask_03.png" alt="">
+                </div>
+                <ul class="list list-1">
+                    <li>
+                        <div class="small" onclick="jump(10)">
+                            <img src="./images/img02/10.png" alt="严信厚">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="small">
+                        </div>
+                        <div class="small m-b-8 m-r-8 m-l-8" onclick="jump(4)">
+                            <img src="./images/img02/4.png" alt="卢绪章">
+                        </div>
+                        <div class="small m-r-8 m-l-8" onclick="jump(7)">
+                            <img src="./images/img02/7.png" alt="包玉刚">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="big m-r-12 m-b-8" onclick="jump(1)">
+                            <img src="./images/img02/1.png" alt="贝时璋">
+                        </div>
+                        <div class="small flex">
+                            <img class="m-r-8" src="./images/img02/6.png" onclick="jump(6)" alt="董浩云">
+                            <img src="./images/img02/9.png" onclick="jump(9)" alt="李达三">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="small">
+                        </div>
+                        <div class="small m-b-8 m-r-8" onclick="jump(3)">
+                            <img src="./images/img02/3.png" alt="谈家桢">
+                        </div>
+                        <div class="small m-r-8" onclick="jump(11)">
+                            <img src="./images/img02/11.png" alt="虞洽卿">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="mini flex margin-top">
+                            <img src="./images/img02/mask_07.png" alt="">
+                            <img src="./images/img02/mask_09.png" alt="">
+                        </div>
+                        <div class="mid m-t-8" onclick="jump(2)">
+                            <img src="./images/img02/2.png" alt="邵逸夫">
+                        </div>
+                    </li>
+                </ul>
+                <ul class="list-2 list-1 m-t-8">
+                    <li>
+                        <div class="mid m-r-8" onclick="jump(5)">
+                            <img src="./images/img02/5.png" alt="王宽诚">
+                            <div class="mask-1 mini flex">
+                                <img class="m-r-8" src="./images/img02/mask_14.png" alt="">
+                                <img src="./images/img02/mask_16.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="small m-r-8" onclick="jump(12)">
+                            <img src="./images/img02/12.png" alt="朱葆三">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="big" onclick="jump(8)">
+                            <img src="./images/img02/8.png" alt="曹光彪">
+                            <div class="mask-2 mini">
+                                <img src="./images/img02/mask_19.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </aside>
+    </div>
+    <script>
+        document.body.style.height = window.innerHeight + 'px';
+        document.body.style.width = window.innerWidth + 'px';
+        function jump(n){
+            // console.log(n);
+            location.href = `indexPage3.html?page=${n}`;
+        }
+    </script>
+</body>
+</html>
